@@ -39,4 +39,4 @@ jobs:
       run: npm install --global surge
 
     - name: Deploy to Surge
-      run: surge ./build REACT_App_PIAIC.surge.sh --token ${{ secrets.SURGE_TOKEN }}
+      run: surge ./build react_base_app_PIAIC.surge.sh --token ${{ secrets.SURGE_TOKEN }}
